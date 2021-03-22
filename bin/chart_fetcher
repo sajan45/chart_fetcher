@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require_relative "../lib/chart_fetcher/cli"
+
+begin
+  ChartFetcher::CLI.process
+rescue => e
+  STDERR.puts 'Error: ' + e.message
+end

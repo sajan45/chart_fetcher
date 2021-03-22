@@ -1,40 +1,13 @@
-# ChartFetcher
+# README
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/chart_fetcher`. To experiment with that code, run `bin/console` for an interactive prompt.
+The tech stack:
 
-TODO: Delete this and the text above, and describe your gem
+* Ruby 2.7.2
 
-## Installation
+## Usage instructions
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'chart_fetcher'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install chart_fetcher
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/chart_fetcher.
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+* Install Ruby if you don't have a newer version already installed.
+* Clone the Repo to a local directory `git clone https://github.com/sajan45/chart_fetcher.git`.
+* Run `cd chart_fetcher`
+* Run `bin/setup` to install dependencies.
+* Run `bin/chart_fetcher 'https://www.imdb.com/india/top-rated-tamil-movies' 10` to get top 10 chart
